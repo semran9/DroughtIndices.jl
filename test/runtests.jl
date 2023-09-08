@@ -12,4 +12,3 @@ using DataFrames
     @test floor(cdfglo([4,1],[1.2,1,0.2])[1]) == 2
 end
 
-
