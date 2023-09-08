@@ -1,0 +1,13 @@
+name = "DroughtIndices"
+uuid = "ae947f86-e600-46c5-84d9-4ddc2fc15820"
+authors = ["Shayaan-Emran"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
