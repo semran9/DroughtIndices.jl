@@ -1,8 +1,5 @@
 using DroughtIndices
 using Test
-using CSV
-using DataFrames
-
 
 @testset "DroughtIndices.jl" begin
     # Write your tests here.
@@ -11,4 +8,3 @@ using DataFrames
     @test params([1,2,3], [0.5, 0.3, 0.2])[3] == -.2
     @test floor(cdfglo([4,1],[1.2,1,0.2])[1]) == 2
 end
-
